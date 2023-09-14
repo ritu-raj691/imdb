@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="flex flex-col items-start">
             <Header />
             <Navbar />
-            <div className="px-[5%] lg:px-[10%] pt-5">{children}</div>
+            <div className="px-[5%] lg:px-[10%] pt-5 w-full">{children}</div>
           </div>
         </Providers>
       </body>
