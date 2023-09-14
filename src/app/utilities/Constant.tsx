@@ -13,3 +13,14 @@ export const Menuitems: { title: string; href: string; Icon: any }[] = [
     Icon: BsFillInfoCircleFill,
   },
 ];
+
+export const NavbarItems: { title: string; param: string }[] = [
+  {
+    title: "Trending",
+    param: "fetchTrending",
+  },
+  {
+    title: "Top Rated",
+    param: "fetchTopRated",
+  },
+];

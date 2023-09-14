@@ -3,3 +3,8 @@ export interface Menuitem {
   href: string;
   Icon: any;
 }
+
+export interface INavbarItem {
+  title: string;
+  param: string;
+}

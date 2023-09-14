@@ -2,7 +2,7 @@ const Page = () => {
   return (
     <>
       <h1 className="text-2xl hover:text-amber-400">About</h1>
-      <p className="mt-2">
+      <p className="mt-5">
         Welcome to our movie database website! We are a team of passionate movie
         enthusiasts who have come together to create a one-stop destination for
         all your movie-related needs.
