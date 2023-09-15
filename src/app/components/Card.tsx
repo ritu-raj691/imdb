@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
 import { FiThumbsUp } from "react-icons/fi";
@@ -22,13 +20,13 @@ export interface IResult {
 
 export interface ICard {
   result: IResult;
-  key: string;
+  id: string;
 }
 
 const Card = (props: ICard) => {
   return (
     <div
-      key={props.key}
+      key={props.id}
       className="pb-4 cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group"
     >
       <Link href={`/movie/${props.result?.id}`}>

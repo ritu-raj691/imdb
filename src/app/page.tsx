@@ -13,7 +13,7 @@ const Home = async (props: any) => {
 
   const res = await fetch(url, { next: { revalidate: 10000 } });
   if (!res.ok) {
-    throw new Error("Failed to fetch data"); //This will be caught by error page and pass to the page as props
+    throw new Error("Failed to fetch movies"); //This will be caught by error page and pass to the page as props
   }
 
   const data = await res.json();
