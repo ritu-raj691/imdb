@@ -21,6 +21,7 @@ export interface IResult {
 export interface ICard {
   result: IResult;
   id: string;
+  key: number;
 }
 
 const Card = (props: ICard) => {
