@@ -1,5 +1,4 @@
-import Link from "../../../node_modules/next/link";
-
+import Link from "next/link";
 import { Menuitem } from "../models/Common";
 
 const MenuItem = (props: Menuitem) => {
